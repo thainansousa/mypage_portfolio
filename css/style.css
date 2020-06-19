@@ -1,58 +1,103 @@
-main{
-    width: 100%;
+body{
     display: flex;
-    padding: 30px 30px 0 30px;  
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
 }
-/* Start InfoSkills */
-section#sectioninfoSkills{
-    width: 40%;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #111;
+    border-radius: 16px;
+    padding: 40px;
+    transform: translateY(80px);
 }
-section .infoAuthor{
-    text-align: center;
+section#container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-section .infoAuthor h1{
-    font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
-    color: var(--orange-color);
-    font-weight: 900;
-}
-section .infoAuthor h3{
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-section .infoSkills{
-    margin-top: 60px;
-    padding: 15px;
-}
-section .infoSkills div{
-    margin-bottom: 20px;
-}
-section .infoSkills h4{
-    margin-top: 20px;
-    border-left: 1px solid var(--orange-color);
-    border-width: 2px;
-    padding: 2px;
-}
-section .infoSkills strong{
+section#container header span{
+    background-color: #211358;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
     display: inline-block;
-    width: 80%;
-    text-align: right;
-    margin-bottom: 1px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+section#container header h1{
+    font-weight: normal;
+    font-size: 22px;
+}
+section#container header ul{
+    list-style-position: inside;
+    list-style: none;
+    display: flex;
+}
+section#container header ul a{
+    color: #777;
+    margin: 0 15px;
+    letter-spacing: 1px;
+}
+section#container header ul a:hover{
+    color: var(--white-color);
 }
 
-section .infoSkills .barra{
+section#content{
+    margin-top: 50px;
+    width: 100%;
+}
+section#content .containerTwo{
     width: 80%;
-    height: 7px;
-    background-color: #1f168e;
-    border-radius: 6px;
+    margin: 0 auto;
+    display: flex;
 }
-section .infoSkills .barra .porcetagem{
-    height: 7px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+section#content .containerTwo div.myPhoto{
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    margin-right: 10px;
+    background-image: url(../img/myphoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    border: 8px solid rgb(34, 34, 34);
+    box-shadow: 3px 3px 8px #000;
 }
-.p90{
+section#content .containerTwo div.about{
+    width: 60%;
+    padding: 0 15px;
+}
+section#content div.about h3{
+    margin-top: 35px;
+    color: #777;
+}
+section#content div.about h1{
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+section#content div.about p{
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+section#content div.about a{
+    color: #211358;
+    background-color: #90D491;
+    margin: 0px 5px;
+    padding: 12px 15px;
+    border-radius: 16px;
+    transition: 400ms;
+}
+section#content div.about a:hover{
+    background-color: #638763;
+}
+/* .p90{
     width: 90%;
     background-color: var(--white-color);
     animation: carregar90 3s 1;
@@ -91,108 +136,5 @@ section .infoSkills .barra .porcetagem{
     30%{
         width: 30%;
     }
-}
-/* End InfoSkills */
-
-/* Start Dev */
-section#infoDev{
-    width: 60%;
-    background-color: #fff;
-    border-radius: 10px;
-    color: var(--orange-color);
-    box-shadow: -3px 3px 8px rgba(5, 5, 5, 0.842);
-}
-section#infoDev header{
-    width: 100%;
-    padding: 60px;
-    background-color: #111;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-section#infoDev .profile{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-}
-section#infoDev .profile img.photoDev{
-    width: 300px;
-    height: 300px;
-    margin: 3px 5px 0 0;
-    border-radius: 3px;
-    background-image: url(../img/myphoto.jpg);
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-}
-section#infoDev .profile nav{
-    width: 60%;
-}
-section#infoDev .profile ul{
-    list-style-position: inside;
-    list-style: none;
-    color: #1f168e;
-    display: grid;
-    grid-template-columns: 10% 90%;
-    align-items: center;
-    margin-top: 10px;
-}
-section#infoDev .profile i{
-    font-size: 28px;
-    text-align: center;
-    color: #4ba543;
-}
-section#infoDev .profile li{
-    margin: 20px 0;
-}
-section#infoDev .profile nav .portfolio{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-section#infoDev .profile nav a{
-    text-align: center;
-    display: inline-block;
-    background-color: var(--purple-color);
-    color: var(--white-color);
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-    margin-top: 12px auto;
-    transition: 400ms;
-    width: 100%;
-}
-section#infoDev .profile nav a:hover{
-    background-color: var(--orange-color);
-}
-section#infoDev p{
-    padding: 30px 30px 15px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: #000;
-    text-align: justify;
-}
-/* End Dev */
-
-/* Start footer */
-footer{
-    width: 100%;
-    background-color: #111;
-    margin-top: 30px;
-    padding: 15px;
-}
-
-footer h1{
-    color: var(--orange-color);
-    text-align: center;
-}
-footer .socialNetworking{
-    text-align: center;
-}
-footer .socialNetworking i{
-    font-size: 38px;
-    cursor: pointer;
-    margin: 30px 30px 0;
-}
-/* footer .socialNetworking i:nth-of-type(2){
-    color: v;
 } */
-/* End footer */
+/* End InfoSkills */
