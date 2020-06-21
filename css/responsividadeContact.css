@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px){
+    html, body, :root{
+        padding: 15px 0  0 15px;
+    }
+    body{
+        background-size: 600px 600px;
+        background-position-x: 300px;
+        background-position-y: 80px;
+    }
+}
+@media screen and (max-width: 425px){
+    html, body, :root{
+        padding: 15px 0  0 15px;
+    }
+    header h1{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    main i{
+        font-size: 38px;
+    }
+    body{
+        background-size: 500px 500px;
+        background-position-x: 280px;
+        background-position-y: 80px;
+    }
+}
+@media screen and (max-width: 320px){
+    html, body, :root{
+        padding: 0 0 0 5px;
+    }
+    header h1{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    main i{
+        font-size: 38px;
+    }
+    body{
+        background-position-x: 350px;
+    }
+}
