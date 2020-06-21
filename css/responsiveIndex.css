@@ -120,14 +120,14 @@
 @media screen and (max-width: 320px){
     html, body, :root{
         margin: 0;
-        padding: 700px 0 0 0;
+        padding: 400px 0 0 0;
     }
     section#content .containerTwo div.myPhoto{
         width: 250px;
         height: 250px;
     }
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 280px){
     html, body, :root{
         margin: 0;
         padding: 700px 0 0 0;
