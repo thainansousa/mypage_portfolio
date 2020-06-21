@@ -60,6 +60,7 @@
     }
     section#container header .menu-section{
         z-index: 10;
+        display: block;
     }
     section#container header .toggle{
         width: 40px;
@@ -109,7 +110,7 @@
         width: 100%;
     }
     section#content div.about h1{
-        font-size: 2em;
+        font-size: 1.5em;
         margin-top: 15px;
     }
     section#content div.about p{
@@ -117,6 +118,10 @@
     }
 }
 @media screen and (max-width: 320px){
+    html, body, :root{
+        margin: 0;
+        padding: 60% 0 0 0;
+    }
     section#content .containerTwo div.myPhoto{
         width: 250px;
         height: 250px;

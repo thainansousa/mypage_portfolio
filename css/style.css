@@ -48,6 +48,9 @@ section#container header ul a{
 section#container header ul a:hover{
     color: var(--white-color);
 }
+section#container header .menu-section{
+    display: none;
+}
 section#content{
     margin-top: 50px;
     width: 100%;
