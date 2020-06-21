@@ -89,6 +89,9 @@
         margin: 0;
         padding: 45% 0;
     }
+    main {
+        background-color: violet;
+    }
 }
 @media screen and (max-width: 375px){
     html, body, :root{
@@ -99,6 +102,7 @@
         padding: 0 0 15px 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
+        background-color: yellow;
     }
     main header{
         padding: 15px;
