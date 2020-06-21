@@ -127,7 +127,7 @@
         height: 250px;
     }
 }
-@media screen and (max-width: 280px){
+@media screen and (max-width: 300px){
     html, body, :root{
         margin: 0;
         padding: 700px 0 0 0;
