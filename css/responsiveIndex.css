@@ -127,10 +127,9 @@
         height: 250px;
     }
 }
-@media screen and (min-width: 200px){
-    main{
-        margin-top: 400px;
-        background-color: red;
+@media screen and (min-width: 300px){
+    html, body, :root{
+        padding: 700px 0 0 0;
     }
 }
 /* end responsive home */
