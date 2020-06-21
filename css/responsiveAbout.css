@@ -18,6 +18,12 @@
     div.abiliity .boxAbiliity{
         width: 100%;
     }
+    div.abiliity .boxAbiliity .percentage{
+        width: 100%;
+    }
+    div.abiliity .boxAbiliity strong{
+        width: 100%;
+    }
     html, body, :root{
         padding: 8px;
     }
