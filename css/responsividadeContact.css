@@ -26,9 +26,6 @@
     }
 }
 @media screen and (max-width: 320px){
-    html, body, :root{
-        padding: 0 0 0 5px;
-    }
     header h1{
         font-size: 2em;
         line-height: 40px;
@@ -38,5 +35,10 @@
     }
     body{
         background-position-x: 350px;
+    }
+}
+@media screen and (max-width: 300px){
+    html, body, :root{
+        padding: 700px 0 0 0;
     }
 }

@@ -1,0 +1,62 @@
+@media screen and (max-width: 1245px){
+    main section#cards .card{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 970px){
+    main section#cards .card{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 900px){
+    main section#cards .card{
+        width: 100%;
+    }
+    main section#cards .card img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 700px){
+    main section#cards .card img{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 530px){
+    html, body, :root{
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 375px){
+    header{
+        padding-bottom: 15px;
+ 
+    }
+    header h1{
+        font-size: 2em;
+    }
+    body>div{
+        text-align: justify;
+        padding: 0;
+        position: relative;
+        margin-bottom: 60px;
+    }
+    body>div>span{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+@media screen and (max-width: 300px){
+    html, body, :root{
+        padding: 0;
+    } 
+    header h1{
+        font-size: 1.5em;
+    }
+    body>div>span{
+        padding-right: 5px;
+    }
+  
+}
