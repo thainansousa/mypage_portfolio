@@ -34,8 +34,18 @@ main i{
     font-size: 48px;
     cursor: pointer;
     padding-right: 15px;
-    color:#AEA5D4
+    color: var(--purplelight-color)
 }
 main div:last-child i{
     cursor: auto;
+}
+main a.home{
+    color: var(--white-color);
+    width: 80px;
+}
+main a span{
+    background-image: url(../img/arrow-left.svg);
+    width: 30px;
+    height: 20px;
+    background-repeat: no-repeat;
 }

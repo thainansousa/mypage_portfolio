@@ -1,0 +1,78 @@
+html, body, #root{
+    padding: 0 30px;
+ 
+}
+span{
+    font-size: 12px;
+    margin-left: 15px;
+}
+header{
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-size: 3em;
+}
+header a{
+    color: var(--purplelight-color);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+header a span{
+    width: 30px;
+    height: 22px;
+    background-image: url(../img/arrow-left.svg);
+    background-repeat: no-repeat;
+}
+main section#cards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+main section#cards .card{
+    width: 30%;
+    background-color: #f0f0f5;
+    color: var(--purple-color);
+    border-radius: 8px;
+    box-shadow: -1px 3px 8px #000;
+    margin: 10px;
+}
+main section#cards .card img{
+    width: 100%;
+    height: 200px;
+}
+.card .contentCard{
+    padding: 15px;  
+}
+.card .contentCard h3{
+    font-size: 28px;
+    color: var(--orange-color)
+}
+.card .contentCard p{
+    text-align: justify;
+    line-height: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card .contentCard a{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    padding: 15px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+}
+.card .contentCard a:hover{
+    opacity: 0.9;
+    transition: 400ms;
+}
