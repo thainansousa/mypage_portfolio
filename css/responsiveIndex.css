@@ -130,6 +130,13 @@
 @media screen and (max-width: 300px){
     main{
         margin-top: 50px;
+        background-color: red;
+    }
+}
+@media screen and (max-width: 280px){
+    main{
+        margin-top: 70px;
+        background-color: blue;
     }
 }
 /* end responsive home */
