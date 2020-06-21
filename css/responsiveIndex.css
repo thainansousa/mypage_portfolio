@@ -49,7 +49,7 @@
         justify-content: center;
     }
     section#container header nav.on ul a{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     section#container header nav.on ul li{
         font-size: 30px;
@@ -127,7 +127,7 @@
         height: 250px;
     }
 }
-@media screen and (max-width: 280px){
+@media screen and (max-width: 240px){
     main{
         margin-top: 400px;
         background-color: red;
