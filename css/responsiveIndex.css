@@ -98,15 +98,10 @@
     }
 }
 @media screen and (max-width: 375px){
-    html, body, :root{
-        margin: 0;
-        padding: 50% 0 0 0;
-    }
     main{
         padding: 0 0 15px 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        background-color: yellow;
     }
     main header{
         padding: 15px;
